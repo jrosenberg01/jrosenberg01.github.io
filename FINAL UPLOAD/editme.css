@@ -15,9 +15,57 @@
 
 @media (max-width: 700px) {
 
+
+  ul {
+    list-style-type: none;
+    background-color: lightgrey;
+    position: fixed;
+    
+
+
+    
+    width: 100%;
+    
+    color: white;
+    font-size: 13px;
+    height: 73.5%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+   
+}
+
+li {
+  text-align: center;
+  padding-top: 1em;
+  
+
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+    
+}
+a:hover {
+        color: red;
+    
+    }
+
+a:selected {
+        color: black;
+    }
+
+li:hover {
+  background-color: #e3e3e4;
+  
+}
+
 .c-hamburger {
   display: block;
-  position: relative;
+  position: fixed;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -138,6 +186,7 @@ h1 {
   padding-right: .5em;
   padding-left: .5em;
   text-transform: lowercase;
+  margin-top: 2em;
 
 }
 
